@@ -7,6 +7,9 @@
     "preview": "nuxt preview"
   },
   "devDependencies": {
-    "nuxt": "3.0.0-rc.1"
+    "@unocss/nuxt": "^0.32.8",
+    "nuxt": "3.0.0-rc.1",
+    "vite": "^2.9.6",
+    "webpack": "^5.72.0"
   }
 }
