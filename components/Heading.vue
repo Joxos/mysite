@@ -29,19 +29,19 @@ let choice = randomNum(0, sentences.length - 1);
   font-style: normal;
 }
 
-@font-face {
+/* @font-face {
   font-family: "FangNoKaiTitleTTF";
   src: url("../assets/fonts/FZKTJW.ttf");
   font-weight: normal;
   font-style: normal;
-}
+} */
 </style>
 
 <template>
-  <div h-190 text-center flex select-none all:transition-400>
+  <div h190 text-center flex select-none all:transition-400>
     <div ma>
-      <div text-5xl fw100 style="font-family: 'FangNoKaiTitle'">随 记</div>
-      <div text-lg fw300 m3 animate-pulse style="font-family: 'FangNoKaiTitle'">
+      <div text-5xl style="font-family: 'FangNoKaiTitle'">随 记</div>
+      <div text-lg m3 animate-pulse style="font-family: 'FangNoKaiTitle'">
         {{ sentences[choice] }}
       </div>
       <div m2 flex justify-center text-2xl op30 hover="op80">
