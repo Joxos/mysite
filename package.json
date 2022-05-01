@@ -7,6 +7,7 @@
     "preview": "nuxt preview"
   },
   "devDependencies": {
+    "@iconify/json": "^2.1.34",
     "@unocss/nuxt": "^0.32.8",
     "nuxt": "3.0.0-rc.1",
     "vite": "^2.9.6",
