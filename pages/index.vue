@@ -1,8 +1,11 @@
+<style>
+* {
+  font-family: 'FangNoKai';
+}
+</style>
 
 <template>
-  <div all:transition-400>
-    <title>玄燕公の随记</title>
-    <Heading />
-    <LazyFooter />
-  </div>
+  <title>玄燕公の随记</title>
+  <Heading />
+  <LazyFooter />
 </template>
