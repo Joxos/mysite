@@ -24,9 +24,10 @@ let choice = randomNum(0, sentences.length - 1);
 /* optimized files */
 @font-face {
   font-family: "FangNoKaiTitle";
-  src: url("../assets/fonts/FZKTJW.woff2");
+  src: url("../assets/fonts/FZKTJW.woff2") format('woff2');
   font-weight: normal;
   font-style: normal;
+  font-display: block;
 }
 
 /* @font-face {
@@ -40,7 +41,7 @@ let choice = randomNum(0, sentences.length - 1);
 <template>
 
   <head>
-    <link rel="preload" href="../assets/fonts/FZKTJW.woff2">
+    <link rel="preload" href="../assets/fonts/FZKTJW.woff2" as="font" type="font/woff2">
   </head>
   <div h190 text-center flex select-none all:transition-400>
     <div ma>
