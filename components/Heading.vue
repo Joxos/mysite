@@ -38,7 +38,11 @@ let choice = randomNum(0, sentences.length - 1);
 </style>
 
 <template>
-  <div h190 text-center flex select-none all:transition-400 >
+
+  <head>
+    <link rel="preload" href="../assets/fonts/FZKTJW.woff2">
+  </head>
+  <div h190 text-center flex select-none all:transition-400>
     <div ma>
       <div text-5xl style="font-family: 'FangNoKaiTitle'">随 记</div>
       <div text-lg m3 animate-pulse style="font-family: 'FangNoKaiTitle'">
