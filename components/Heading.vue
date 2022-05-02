@@ -27,7 +27,7 @@ let choice = randomNum(0, sentences.length - 1);
   src: url("../assets/fonts/FZKTJW.woff2") format('woff2');
   font-weight: normal;
   font-style: normal;
-  font-display: block;
+  font-display: swap;
 }
 
 /* @font-face {
