@@ -24,29 +24,24 @@ let choice = randomNum(0, sentences.length - 1);
 /* optimized files */
 @font-face {
   font-family: "FangNoKaiTitle";
-  src: url("../assets/fonts/FZKTJW.woff2") format('woff2');
+  src: url("../assets/fonts/FZKTJW.woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
 }
 
-/* @font-face {
+@font-face {
   font-family: "FangNoKaiTitleTTF";
   src: url("../assets/fonts/FZKTJW.ttf");
   font-weight: normal;
   font-style: normal;
-} */
+}
 </style>
 
 <template>
-
-  <head>
-    <link rel="preload" href="../assets/fonts/FZKTJW.woff2" as="font" type="font/woff2">
-  </head>
-  <div h190 text-center flex select-none all:transition-400>
+  <div h-190 text-center flex select-none all:transition-400>
     <div ma>
-      <div text-5xl style="font-family: 'FangNoKaiTitle'">随 记</div>
-      <div text-lg m3 animate-pulse style="font-family: 'FangNoKaiTitle'">
+      <div text-5xl fw100 style="font-family: 'FangNoKaiTitle'">随 记</div>
+      <div text-lg fw300 m3 animate-pulse style="font-family: 'FangNoKaiTitle'">
         {{ sentences[choice] }}
       </div>
       <div m2 flex justify-center text-2xl op30 hover="op80">

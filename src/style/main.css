@@ -6,9 +6,16 @@
   font-style: normal;
 }
 
-/* @font-face {
+@font-face {
   font-family: "FangNoKaiTTF";
   src: url("../assets/fonts/.font-spider/FZKTJW.TTF");
   font-weight: normal;
   font-style: normal;
-} */
+}
+
+/* beautiful link style */
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
